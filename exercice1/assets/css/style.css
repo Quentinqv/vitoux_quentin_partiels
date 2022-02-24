@@ -96,12 +96,47 @@ header h2 {
   opacity: 0.4;
 }
 
+.events__container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.events__container .event__container {
+  padding: 30px;
+  aspect-ratio: 1/1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: solid 1px #7de0b3;
+  border-bottom: solid 1px #7de0b3;
+  flex: 1;
+}
+.events__container .event__container:last-child {
+  border-right: none;
+}
+.events__container .event__container time span {
+  font-size: 3rem;
+}
+.events__container .event__container p.event__type {
+  color: #7de0b3;
+}
+.events__container .event__container p.event__place {
+  color: #7de0b3;
+  margin: 10px 0;
+}
+.events__container .event__container p.event__place i {
+  color: #7de0b3;
+}
+.events__container:last-child .event__container {
+  border-bottom: none;
+}
+
 html {
   background-color: #131313;
 }
 
 * {
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
