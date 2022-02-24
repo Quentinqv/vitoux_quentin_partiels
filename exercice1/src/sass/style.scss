@@ -1,0 +1,13 @@
+// sass --watch ./src/sass:./assets/css
+
+@import "includes/reset";
+@import "fonts";
+@import "includes/header";
+
+html {
+  background-color: rgb(19, 19, 19);
+}
+
+* {
+  color: white;
+}
