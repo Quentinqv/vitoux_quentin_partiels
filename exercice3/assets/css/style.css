@@ -1,0 +1,151 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+header {
+  padding: 0 0 100px 0;
+  position: relative;
+  overflow-x: hidden;
+}
+header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/351974.jpg");
+  background-position: center;
+  background-size: cover;
+  filter: sepia(69%) brightness(50%) hue-rotate(92deg) saturate(55%);
+  -webkit-filter: sepia(69%) brightness(50%) hue-rotate(92deg) saturate(55%);
+  -moz-filter: sepia(69%) brightness(50%) hue-rotate(92deg) saturate(55%);
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  min-height: 50px;
+  position: absolute;
+  top: 0px;
+  width: calc(100% - 60px);
+}
+header nav .header__left,
+header nav .header__right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 20px;
+}
+header h1 {
+  text-align: center;
+  position: relative;
+}
+header h1 img {
+  max-width: 200px;
+}
+header h2 {
+  position: absolute;
+  left: 50px;
+  bottom: 30px;
+  font-family: "Architects Daughter", cursive;
+  font-size: 4rem;
+  opacity: 0.4;
+}
+
+@media screen and (max-width: 1024px) {
+  header nav .header__right {
+    display: none;
+  }
+}
+#djs__container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  width: 60%;
+}
+#djs__container form label {
+  color: #7de0b3;
+  font-size: 2rem;
+}
+#djs__container input, #djs__container button {
+  border: none;
+  background-color: #7de0b3;
+  border-radius: 5px;
+  padding: 20px;
+  outline: none;
+  width: 100%;
+  margin: 5px 0;
+  cursor: pointer;
+}
+#djs__container button {
+  background-color: #30c782;
+}
+#djs__container .result {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3rem;
+}
+#djs__container .djs__list {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 30px auto;
+  list-style: circle;
+}
+
+html {
+  background-color: #131313;
+}
+
+* {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */

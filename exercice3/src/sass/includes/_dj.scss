@@ -1,0 +1,44 @@
+#djs__container {
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    width: 60%;
+
+    label {
+      color: $color__green;
+      font-size: 2rem;
+    }
+  }
+
+  input, button {
+    border: none;
+    background-color: $color__green;
+    border-radius: 5px;
+    padding: 20px;
+    outline: none;
+    width: 100%;
+    margin: 5px 0;
+    cursor: pointer;
+  }
+
+  button {
+    background-color: darken($color: $color__green, $amount: 20);
+  }
+
+  .result {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  .djs__list {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 30px auto;
+    list-style: circle;
+  }
+}
