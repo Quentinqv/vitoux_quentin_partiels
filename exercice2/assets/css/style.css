@@ -107,6 +107,11 @@ header h2 {
   opacity: 0.4;
 }
 
+@media screen and (max-width: 1024px) {
+  header nav .header__right {
+    display: none;
+  }
+}
 .events__container {
   display: flex;
   flex-wrap: wrap;
@@ -187,10 +192,25 @@ header h2 {
 .events__container .event__container p.event__place i {
   color: #7de0b3;
 }
-.events__container:last-child .event__container {
-  border-bottom: none;
+@media screen and (min-width: 1024px) {
+  .events__container:last-child .event__container {
+    border-bottom: none;
+  }
 }
 
+@media screen and (max-width: 1024px) {
+  .events__container {
+    flex-wrap: wrap;
+  }
+  .events__container .event__container {
+    min-width: 200px;
+    border: none;
+    border-bottom: solid 1px #7de0b3;
+  }
+  .events__container .event__container:last-child {
+    border: none;
+  }
+}
 html {
   background-color: #131313;
 }

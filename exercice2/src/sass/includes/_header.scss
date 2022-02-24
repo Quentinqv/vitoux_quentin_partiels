@@ -1,0 +1,67 @@
+header {
+  padding: 0 0 100px 0;
+  position: relative;
+  overflow-x: hidden;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/351974.jpg");
+    background-position: center;
+    background-size: cover;
+    filter: sepia(69%) brightness(50%) hue-rotate(92deg) saturate(55%);
+    -webkit-filter: sepia(69%) brightness(50%) hue-rotate(92deg) saturate(55%);
+    -moz-filter: sepia(69%) brightness(50%) hue-rotate(92deg) saturate(55%);
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    min-height: 50px;
+    position: absolute;
+    top: 0px;
+    width: calc(100% - 60px);
+
+    .header__left,
+    .header__right {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      column-gap: 20px;
+    }
+  }
+
+  h1 {
+    text-align: center;
+    position: relative;
+
+    img {
+      max-width: 200px;
+    }
+  }
+
+  h2 {
+    position: absolute;
+    left: 50px;
+    bottom: 30px;
+    font-family: "Architects Daughter", cursive;
+    font-size: 4rem;
+    opacity: 0.4;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    nav {
+      .header__right {
+        display: none;
+      }
+    }
+  }
+}
