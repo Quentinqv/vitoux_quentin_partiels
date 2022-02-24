@@ -1,0 +1,23 @@
+TEAMS/365
+La suite Teams a comme point fort de pouvoir partager des fichiers avecc des utilisateurs
+La gestion des groupes et des équipes est correcte pusiqu'elle permet de créer plusieurs groupes et de séparer les différents sujets de discussions dans des "channels"
+
+Discord
+Il ne s'agit pas d'un outil de collaboration professionnel.
+Il est clairement destiné à des usages personnels avec des amis.
+La gestion des sujets peut se faire, mais si l'on doit retrouver un message rapidement, il n'y a pas d'autres moyens que de remonter le fil.
+
+Slack
+Slack est un bon outil professionnel pusiqu'il permet de faire plein d'automatisations
+Il comporte un chat vocal même si ce n'est pas son usage premier
+Il est très utilisé en entreprise afin de partager des fichiers et avoir un retour sur chaque utilisateur.
+
+Workplace (Meta)
+Il s'agit du même niveau que Teams, on y retrouve les même fonctionnalités et les utilisations
+
+Google Workplace
+La suite Google Workplace peut être une bonne solution, cependant, les trop multiples applications rendent sont utilisation lentes
+La gestion n'est donc pas parfaite dans ce cas là.
+
+Whatsapp
+Il ne s'agit pas d'outil de collaboration, c'est un réseau social permettant de discuter entre amis, mais il n'y a aucune gestion du partage d'informations ou d'ordre
