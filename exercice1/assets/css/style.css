@@ -109,6 +109,46 @@ header h2 {
   border-right: solid 1px #7de0b3;
   border-bottom: solid 1px #7de0b3;
   flex: 1;
+  position: relative;
+}
+.events__container .event__container .event__hover {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.events__container .event__container .event__hover::after {
+  content: "";
+  display: block;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 200%;
+  height: 100%;
+  transform: rotate(-15deg);
+  position: absolute;
+  bottom: -60%;
+  right: -50%;
+  z-index: 2;
+}
+.events__container .event__container .event__hover img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.events__container .event__container .event__hover span {
+  display: block;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 4;
+}
+.events__container .event__container:hover .event__hover {
+  display: block;
 }
 .events__container .event__container:last-child {
   border-right: none;
